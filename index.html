@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Oliva Ana Lucia">
+    <meta name="description" content="Portfolio de prueba para proyecto final Front-End">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://kit.fontawesome.com/099ef496b5.css" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio Final</title>
+</head>
+<body class="position-relative"data-spy="scroll" data-bs-target="#navabar-scrollspy">
+   
+    <!-- Navbar Desplegable-->
+    <nav class="navbar navbar-expand-md bg" id="navabar-scrollspy">
+        <a href="" class="navbar-brand fs-3 ms-3 text-white">Menu</a>
+
+    <button class="navbar-toggler me-3 text-white" type="button" data-bs-toggle="collapse" data-bs-target="#btn">
+        <i class='bx bx-menu bx-md'></i>
+    </button>
+    <div class="collapse navbar-collapse ul-bg" id="btn">
+        <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+                <a href="#AboutMe" class="nav-link mx-3 text-white fs-4">
+                    Sobre Mi
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#Experience" class="nav-link mx-3 text-white fs-4">
+                    Experiencia
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#Education" class="nav-link mx-3 text-white fs-4">
+                    Educacion
+                </a>
+            </li>
+            <li class="nav-item">
+                <a href="#Skills" class="nav-link mx-3 text-white fs-4">
+                    Habilidades
+                </a>
+            </li>
+        </ul>
+    </div>
+    </nav>
+
+<!-- Main  -->
+
+    <!-- About Me Section-->
+    <div class="container col-xxl-8 px-4 py-5" id="AboutMe" >
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+          <div class="col-12 col-sm-8 col-lg-6" id="foto">
+            <img src="https://i.pinimg.com/564x/97/f9/93/97f9931bdc00d08a80ee09d46b178328.jpg" 
+            class="d-block mx-lg-auto img-fluid" alt="Foto Perfil"  loading="lazy">
+          </div>
+          <div class="col-lg-6">
+            <h1 class="display-5 fw-bold lh-1 mb-3">Luciana Suarez
+
+            </h1>
+            <div class="titulo">
+            <h4 class="display-7 fw-bold lh-1 mb-3">Front-End Developer</h4>
+            </div>
+            <p class="lead">
+                Nacida en 1994.
+                En Misiones, Argentina.
+                Creo que el diseño web puede ser muy diverso e inspirador.
+                Tengo la mision de presentar las posibilidades del web design, genero nuevas expresiones a traves de experimentos creativos.
+    
+            </p>
+            <div class="redes">
+                <p><a href="https://www.instagram.com" target="_blank"><i class="fa-brands fa-square-instagram"></i></a></p>
+                <p><a href="https://ar.linkedin.com" target="_blank"><i class="fa-brands fa-linkedin"></i></a></p>
+                <p><a href="https://github.com/" target="_blank"><i class="fa-brands fa-square-github"></i></a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!--Experience Section-->
+
+      <section class="section bg-color" id="Experience">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-lg-5 col-md-8 m-auto">
+                    <div class="sub-heading text-center">
+                        <h2>Experiencia</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-3">
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-box">
+                        <div class="service-icon mb-3">
+                            <img src="img/1.png" class="img-fluid w-25" alt="">
+                        </div>
+                        <div class="service-content">
+                            <h3 class="mb-3">Front-IT</h3>
+                            <h6 class="mb-3">Enero 2023 - Actualidad</h6>
+                            <p>Maquetacion y mejora de sitios web y aplicaciones.
+                                Servicio Front-End, definicion y testeo de interfaces de usuario con React.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-box">
+                        <div class="service-icon mb-3">
+                            <img src="img/2.png" class="img-fluid w-25" alt="">
+                        </div>
+                        <div class="service-content">
+                            <h3 class="mb-3">A&M - Services</h3>
+                            <h6 class="mb-3">Julio 2022 - Diciembre 2022</h6>
+                            <p>Elaboracion de codigo de calidad testeable.
+                                Creacion de aplicaciones a medida con PHP, Javascript, HTML y CSS.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-box">
+                        <div class="service-icon mb-3">
+                            <img src="img/3.png" class="img-fluid w-25" alt="">
+                        </div>
+                        <div class="service-content">
+                            <h3 class="mb-3">ZonaCoder</h3>
+                            <h6 class="mb-3">Enero 2022 - Abril 2022</h6>
+                            <p>Voluntariado a una empresa de nueva creacion no 
+                                financiada para desarrollar su producto. Mi trabajo incluyo codificacion con 
+                                Javascript, HTML y CSS.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Educacion Section-->
+     
+
+     <section class="section bg-color" id="Education">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-lg-5 col-md-8 m-auto">
+                    <div class="sub-heading text-center">
+                        <h2>Educacion</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="row g-3">
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-box">
+                        <div class="service-icon mb-3">
+                            <img src="img/1.png" class="img-fluid w-25" alt="">
+                        </div>
+                        <div class="service-content">
+                            <h3 class="mb-3">Universidad de La Rioja</h3>
+                            <h6 class="mb-3">Enero 2021 - Actualidad</h6>
+                            <p>Carrera de grado en Licenciatura en Sistemas de Informacion.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-box">
+                        <div class="service-icon mb-3">
+                            <img src="img/2.png" class="img-fluid w-25" alt="">
+                        </div>
+                        <div class="service-content">
+                            <h3 class="mb-3">CPUGSM</h3>
+                            <h6 class="mb-3">Marzo 2012 - Noviembre 2019</h6>
+                            <p>Titulo Tecnico en Administracion y Gestion de Empresas.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6">
+                    <div class="service-box">
+                        <div class="service-icon mb-3">
+                            <img src="img/3.png" class="img-fluid w-25" alt="">
+                        </div>
+                        <div class="service-content">
+                            <h3 class="mb-3">English Tower</h3>
+                            <h6 class="mb-3">Enero 2020 - Diciembre 2022</h6>
+                            <p>Tecnicatura en Idioma Ingles y Traduccion.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--Habilidades Section-->
+    <div class="container" id="Skills">
+        <div class="row mb-5">
+            <div class="col-lg-5 col-md-8 m-auto">
+                <div class="sub-heading text-center">
+                    <h2>Habilidades</h2>
+                </div>
+            </div>
+        </div>
+    
+    <div class="progress_container">
+        <div class="progress">
+            <div class="progress_item">
+                <h3 class="progress_title">HTML5</h3>
+                <div class="progress_bar">
+                    <div class="bar" data-value="96" data-text="96"></div>
+                </div>
+            </div>
+            <div class="progress_item">
+                <h3 class="progress_title">CSS3</h3>
+                <div class="progress_bar">
+                    <div class="bar" data-value="95" data-text="95"></div>
+                </div>
+            </div>
+            <div class="progress_item">
+                <h3 class="progress_title">React</h3>
+                <div class="progress_bar">
+                    <div class="bar" data-value="90" data-text="90"></div>
+                </div>
+            </div>
+            <div class="progress_item">
+                <h3 class="progress_title">Javascript</h3>
+                <div class="progress_bar">
+                    <div class="bar" data-value="85" data-text="85"></div>
+                </div>
+            </div>
+        </div>
+    </div>    
+
+    <!--Footer-->
+    <div class="container" id="footer">
+        <footer class="py-3 my-4">
+          <p class="text-center text-muted">©2023 Argentina Programa</p>
+          <p class="text-center text-muted">Portfolio Ficticio como Proyecto Final Integrador del curso de Front-End dada
+            por la plataforma Academy.
+          </p>
+        </footer>
+      </div>
+
+    <!-- Javascript  Link-->
+    <script src="https://kit.fontawesome.com/099ef496b5.js" crossorigin="anonymous"></script>
+    <script src="javascript.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
